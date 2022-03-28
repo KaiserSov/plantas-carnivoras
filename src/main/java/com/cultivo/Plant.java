@@ -10,13 +10,13 @@ public abstract class Plant {
     public String temperatura;
     public Boolean sol;
 
-    public Plant(Boolean sol, String altura, String origen, String tipo, String color, String temperatura)
+    public Plant(Boolean sol)
     {
-        this.color = "Depende del cuidado, pero el más común es verde y rosado";
+      /*  this.color = "Depende del cuidado, pero el más común es verde y rosado";
         this.tipo = "Spatulata";
         this.altura = 3+"cm";
         this.origen = "Oceanía";
-        this.temperatura = 2+"°C";
+        this.temperatura = 2+"°C";*/
         this.sol = sol;
     }
 
@@ -34,4 +34,6 @@ public abstract class Plant {
     public void sacarAlSol(){
         this.sol = true;
     }
+
+    public abstract void infoGeneral();
 }
