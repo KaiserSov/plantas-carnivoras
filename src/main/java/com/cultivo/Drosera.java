@@ -10,10 +10,16 @@ public class Drosera extends Plant {
         this.temperatura ="2°C";
     }
 
+    /**
+     * Param: Herencia de regar planta
+     */
     public void regarPlanta() {
         System.out.println("Regaste tu drosera");
     }
 
+    /**
+     * Param: Clase abstracata que trae los atributos
+     */
     public void infoGeneral (){
         System.out.println("Sol: "+ sol);
         System.out.println("Origen: "+ origen);

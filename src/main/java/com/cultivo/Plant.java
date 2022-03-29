@@ -1,6 +1,9 @@
 package com.cultivo;
 
 //Tienen gotitas de líquido pegajoso
+/**
+ * Param: Define las propiedades
+ */
 public abstract class Plant {
     //Variables nativas
     public String altura;
@@ -10,30 +13,24 @@ public abstract class Plant {
     public String temperatura;
     public Boolean sol;
 
+    /**
+     * Param: Super para el sol en todos los objetos
+     */
     public Plant(Boolean sol)
     {
-      /*  this.color = "Depende del cuidado, pero el más común es verde y rosado";
-        this.tipo = "Spatulata";
-        this.altura = 3+"cm";
-        this.origen = "Oceanía";
-        this.temperatura = 2+"°C";*/
         this.sol = sol;
     }
 
-   /* public Drosera(String altura, String color, String tipo,  String origen, String temperatura)
-    {
-        this.altura=altura;
-        this.temperatura=temperatura;
-        this.origen=origen;
-        this.tipo=tipo;
-        this.color=color;
-    }*/
-    //Acaban los constructores
-
+    /**
+     * Param: Clase abstracta para regar la planta
+     */
     public abstract void regarPlanta();
     public void sacarAlSol(){
         this.sol = true;
     }
 
+    /**
+     * Param: Clase abstracta para mostrar los atributos de las plantas
+     */
     public abstract void infoGeneral();
 }

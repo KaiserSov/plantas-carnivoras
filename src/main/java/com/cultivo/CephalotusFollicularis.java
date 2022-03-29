@@ -12,10 +12,16 @@ public class CephalotusFollicularis extends Plant {
         this.temperatura ="20 - 35 °C";
     }
 
+    /**
+     * Param: Herencia de regar planta
+     */
     public void regarPlanta() {
         System.out.println("Regaste tu jarroncito");
     }
 
+    /**
+     * Param: Clase abstracata que trae los atributos
+     */
     public void infoGeneral (){
         System.out.println("Sol: "+ sol);
         System.out.println("Origen: "+ origen);

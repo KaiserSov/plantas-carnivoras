@@ -11,10 +11,16 @@ public class Nephentes extends Plant {
         this.temperatura ="15 - 30 °C";
     }
 
+    /**
+     * Param: Herencia de regar planta
+     */
     public void regarPlanta() {
         System.out.println("Regaste tu nephentes");
     }
 
+    /**
+     * Param: Clase abstracata que trae los atributos
+     */
     public void infoGeneral (){
         System.out.println("Sol: "+ sol);
         System.out.println("Origen: "+ origen);
