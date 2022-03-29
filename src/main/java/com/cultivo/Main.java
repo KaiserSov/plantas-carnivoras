@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Acción               |  opción");
         System.out.println("Regar tus plantas    |     a   ");
         System.out.println("Información general  |     b");
-        System.out.println("Dejar plantas en paz |     c");
+        System.out.println("Dejar plantas en paz |     any keyword");
 
         System.out.println("Ingresa la opción de lo que vas a hacer con tus plantas");
         String deberHoy = deber.nextLine();
@@ -45,7 +45,9 @@ public class Main {
                 System.out.println(" ");
                 System.out.println("      | Drosera |");
                 droseraN.infoGeneral();
-
+                break;
+            default:
+                System.out.println("Vuelve mañana y no olvides poner tus plantitas al sol");
         }
     }
 }
