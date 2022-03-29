@@ -1,19 +1,19 @@
 package com.cultivo;
 
-public class DionaeaMuscipula extends Plant{
-
-    public DionaeaMuscipula(){
+public class Drosera extends Plant {
+    public Drosera(){
         super(true);
-        this.color = "Verde y/o morado";
-        this.tipo = "Droseraceae";
-        this.altura = 3.5+" - "+10+ "cm";
-        this.origen = "Sureste de Estados Unidos";
-        this.temperatura ="-7 - 40 °C";
+        this.color = "Depende del cuidado, pero el más común es verde y rosado";
+        this.tipo = "Spatulata";
+        this.altura = 3+"cm";
+        this.origen = "Oceanía";
+        this.temperatura ="2°C";
     }
 
     public void regarPlanta() {
-        System.out.println("Regaste tu venus atrapa moscas");
+        System.out.println("Regaste tu drosera");
     }
+
     public void infoGeneral (){
         System.out.println("Sol: "+ sol);
         System.out.println("Origen: "+ origen);
@@ -22,4 +22,6 @@ public class DionaeaMuscipula extends Plant{
         System.out.println("Color: "+ color);
         System.out.println("Temperatura: "+ temperatura);
     }
+
+
 }

@@ -13,7 +13,7 @@ public class CephalotusFollicularis extends Plant {
     }
 
     public void regarPlanta() {
-        System.out.println("Regaste tu plantita");
+        System.out.println("Regaste tu jarroncito");
     }
 
     public void infoGeneral (){

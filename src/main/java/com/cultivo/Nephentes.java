@@ -4,15 +4,15 @@ public class Nephentes extends Plant {
 
     public Nephentes(){
         super(true);
-        this.color = "Verde y vinotinto";
+        this.color = "Verde y amarillo dependiendo del cuidado";
         this.tipo = "Nephentes";
-        this.altura = 20+"cm";
-        this.origen = "Oceanía";
-        this.temperatura ="20 - 35 °C";
+        this.altura = 15+"cm";
+        this.origen = "Tropical";
+        this.temperatura ="15 - 30 °C";
     }
 
     public void regarPlanta() {
-        System.out.println("Regaste tu plantita");
+        System.out.println("Regaste tu nephentes");
     }
 
     public void infoGeneral (){
